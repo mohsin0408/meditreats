@@ -1,0 +1,195 @@
+*{margin:0; padding:0; box-sizing: border-box;}
+
+.section-common{
+  padding-top:2.1rem ;
+  padding-bottom: 2.5rem;
+  border-bottom: 2px solid rgb(73, 170, 170);
+}
+
+.common{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.875rem;
+  margin-left: 4.375rem;
+  margin-right: 4.375rem;
+  padding: 0 1.25rem;
+}
+
+.common_para{
+  margin-right: 31rem;
+  margin-left: 4.375rem;
+  margin-right: 4.375rem;
+  padding: 0 1.25rem;
+}
+
+.common_para p{
+  margin-bottom: 1.25rem;
+}
+
+.common_para ul{
+  list-style: none;
+  margin-top: 1.25rem;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1.25rem;
+  padding:0  1.25rem;
+}
+
+.main-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 2%;
+  width: 100%;
+  gap: 4rem;
+}
+
+.logo-sm{
+  width: 5.125rem;  
+}
+
+.logo-lg{
+  width: 14rem;
+  height: 4.75rem;
+}
+
+.icon-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    text-transform: capitalize;
+}
+
+.header-icon{
+  width: 3.125rem;
+  height: 3.125rem;
+}
+
+.header-info p{
+  font-weight: bold;
+}
+/************************/
+/*NAVIGATION*/
+
+.NavLink{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5rem;
+}
+.NavBar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(9, 127, 178, 0.717);
+  margin: 0.625rem 0 0 0;
+  padding: 0.625rem ;
+  gap: 0.75rem;
+  width: 100%;
+}
+
+.NavList{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 4.688rem;
+}
+
+.NavLink a{
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: #fff;
+}
+.input input{
+  border: none;
+  height: 100%;
+  padding: 1% 2%;
+  font-size: 1.063rem;
+  background-color: rgb(232, 232, 238);
+  color: #fff;
+  width: 6.25rem;
+}
+/*************************/
+/*HERO SECTION*/
+.section-hero{
+  background-image: url(./img/new-image.webp);
+  background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.hero{
+  margin: 0 1.25rem;
+  padding:15.625rem 3.75rem;
+}
+.HeroList{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  list-style: none;
+}
+.HeroList a{
+  margin: 0.313rem 0.313rem;
+  text-decoration: none;
+}
+/****************************/
+/*FEATURED SECTION*/
+
+.container-list{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.25rem;
+  gap: 4.688rem;
+  font-size: 1.25rem;
+}
+.section-featured{
+  border-bottom: 0.063rem solid black;
+}
+/*********************************/
+/*OVERVIEW SECTION*/
+
+.overview-img{
+  height: 15.625rem;
+  max-width: 100%;
+  border-radius: 0.313rem;
+}
+/***********************************/
+/*ACCORDION SECTION*/
+
+.section-accordion{
+  margin-top: 35px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid rgb(80, 202, 236);
+}
+
+.accordion {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.accordion-item {
+  border-bottom: 1px solid #ddd;
+}
+
+.accordion-header {
+  background-color: #f4f4f475;
+  padding: 10px;
+  cursor: pointer;
+  color: rgb(103, 72, 72);
+  margin: 20px;
+  font-size: 20px;
+}
+
+.accordion-content {
+  padding: 10px;
+}
